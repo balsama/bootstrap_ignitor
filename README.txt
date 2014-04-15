@@ -6,7 +6,8 @@ Bootstrap ignitor is a sub theme of the
 speedy development by taking care of the mundane tasks usually associated with
 setting up the Bootstrap theme.
 
-You should create a subtheme of this theme to use as your actual theme.
+You should create a subtheme of this theme to use as your actual theme or use
+the "Bootstrap Starter" theme as a subtheme of this theme (recommended).
 
 Features/Overrides
 ------------------
