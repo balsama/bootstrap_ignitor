@@ -67,6 +67,6 @@ function bootstrap_ignitor_menu_link(array $variables) {
  * Adds the button class to all form submit buttons.
  */
 function bootstrap_ignitor_form_alter(&$form, &$form_state, $form_id) {
-  $form['actions']['submit']['#attributes']['class'][] = 'button';
+  $form['actions']['submit']['#attributes']['class'][] = 'btn';
 }
 
