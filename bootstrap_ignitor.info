@@ -26,6 +26,7 @@ regions[page_bottom]    = 'Page bottom'
 
 ; Bootstrap compiled less
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/overrides.css
 
 ; Override loading from core and contrib
 stylesheets[all][] = field_collection.theme.css

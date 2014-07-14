@@ -1,0 +1,10 @@
+/**
+ * @file Overrides some bootstrap elements and fixes various problems with the
+ * contrib "Bootstrap" theme.
+ */
+
+// Table Draggers use a sprite for a background image. Adding an explicit
+// height so that other parts of the sprite don't bleed through.
+a.tabledrag-handle .handle {
+  height: 22px;
+}

@@ -1,0 +1,6 @@
+/**
+ * @file Overrides some bootstrap elements and fixes various problems with the
+ * contrib "Bootstrap" theme.
+ */
+a.tabledrag-handle .handle {
+  height: 22px; }
