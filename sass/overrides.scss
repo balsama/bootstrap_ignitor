@@ -8,4 +8,42 @@
 a.tabledrag-handle .handle {
   height: 22px;
 }
+
+/**
+ * Applies bootsraps default menu style to menu items that aren't links. (See
+ * the "Special Menu Items" module.)
+ */
+.nav {
+  > li {
+    span {
+      cursor: default;
+      display: block;
+      padding: 10px 15px;
+      position: relative;
+    }
+  }
+}
+.navbar-default {
+  .navbar-nav {
+    > li > span {
+      color: #777777;
+    }
+  }
+}
+.navbar-nav {
+  > li {
+    > span {
+      line-height: 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    > li {
+      > span {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+}
+
 @import "tables";
