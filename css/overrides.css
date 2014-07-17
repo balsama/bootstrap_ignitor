@@ -26,6 +26,14 @@ a.tabledrag-handle .handle {
     padding-bottom: 15px; } }
 
 /**
+ * There are some cases where elements may be positioned relatively from some
+ * other rule which makes the .sr-only class ineffective. We just put an
+ * !important on it to eliminate that possiblity.
+ */
+.sr-only {
+  position: absolute !important; }
+
+/**
  * Applies Bootstraps .table class styles to the table element directly.
  */
 table {

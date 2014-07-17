@@ -46,4 +46,13 @@ a.tabledrag-handle .handle {
   }
 }
 
+/**
+ * There are some cases where elements may be positioned relatively from some
+ * other rule which makes the .sr-only class ineffective. We just put an
+ * !important on it to eliminate that possiblity.
+ */
+.sr-only {
+  position: absolute !important;
+}
+
 @import "tables";
