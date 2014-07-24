@@ -47,6 +47,21 @@ a.tabledrag-handle .handle {
 }
 
 /**
+ * Applies Bootstrap's `btn-default` classes to the `btn` class so users don't
+ * have to add two classes to create a default button.
+ */
+.btn {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+  &:hover {
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+  }
+}
+
+/**
  * There are some cases where elements may be positioned relatively from some
  * other rule which makes the .sr-only class ineffective. We just put an
  * !important on it to eliminate that possiblity.
