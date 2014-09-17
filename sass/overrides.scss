@@ -46,6 +46,13 @@ a.tabledrag-handle .handle {
   }
 }
 
+// For some reason, views sets this selector to float: none which breaks the
+// pager. Resetting it here.
+.view .progress-disabled {
+  float: left;
+}
+
+
 /**
  * Applies Bootstrap's `btn-default` classes to the `btn` class so users don't
  * have to add two classes to create a default button.

@@ -25,6 +25,9 @@ a.tabledrag-handle .handle {
     padding-top: 15px;
     padding-bottom: 15px; } }
 
+.view .progress-disabled {
+  float: left; }
+
 /**
  * Applies Bootstrap's `btn-default` classes to the `btn` class so users don't
  * have to add two classes to create a default button.
